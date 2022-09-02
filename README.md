@@ -4,6 +4,8 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParLelya&theme=monokai&utcOffset=3)
 
+[![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya) 
+
 ### 💻 IDEs/Editors:
 ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -25,9 +27,6 @@
 ### 🎨 Design:
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
-[![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya) 
-
 <!--
 **ParLelya/ParLelya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
