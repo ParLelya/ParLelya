@@ -4,7 +4,7 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParLelya&theme=monokai&utcOffset=3)
 
-[![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya) 
+<!-- [![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya)  -->
 
 ### 💻 IDEs/Editors:
 ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)
