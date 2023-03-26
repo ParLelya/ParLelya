@@ -3,8 +3,8 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParLelya&theme=monokai)
 
 
-<!-- ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParLelya&theme=monokai&utcOffset=3) -->
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParLelya&theme=monokai&utcOffset=3) 
 
 <!-- [![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya)  -->
 
