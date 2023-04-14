@@ -1,0 +1,128 @@
+@import "./normalize";
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.parallax {
+  min-height: 100vh;
+
+  &__body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__container {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    position: relative;
+    z-index: 2;
+    margin-left: 5rem;
+  }
+
+  &__label {
+    display: flex;
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    margin: 2rem 0;
+    align-items: center;
+
+    &::before {
+      flex: 0 0 70px;
+      content: "";
+      margin-right: 2rem;
+      height: 1px;
+      background-color: #fff;
+    }
+  }
+
+  //   &__title {
+
+  //   }
+
+  &__images {
+    position: absolute;
+    width: 120%;
+    height: 150%;
+    top: -20%;
+    left: -10%;
+    z-index: 1;
+
+    &--item {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+
+      .item__sky,
+      .item__mountains,
+      .item__forest {
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      .item__sky {
+        background-image: url("./images/1.jpg");
+      }
+
+      .item__mountains {
+        background-image: url("./images/2.png");
+        top: -5%;
+        z-index: 2;
+        filter: drop-shadow(0 -5px 5px #eaadfe);
+      }
+
+      .item__forest {
+        background-image: url("./images/3.png");
+        top: -10%;
+        z-index: 3;
+        filter: brightness(70%);
+      }
+    }
+  }
+}
+
+.content {
+  &__container {
+    position: relative;
+    z-index: 5;
+    background-color: #400a51;
+    text-align: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 200px;
+      top: 0;
+      left: 0;
+      background: linear-gradient(180deg, transparent 50%, #400a51 100%);
+      transform: translateY(-100%);
+      pointer-events: none;
+    }
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__about {
+    line-height: 1.5;
+    font-size: 1.5rem;
+
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+}

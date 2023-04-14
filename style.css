@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Didact Gothic", Roboto, system-ui, Tahoma, sans-serif;
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a,
+div,
+span,
+p,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.parallax {
+  min-height: 100vh;
+}
+.parallax__body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.parallax__container {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px black;
+  position: relative;
+  z-index: 2;
+  margin-left: 5rem;
+}
+.parallax__label {
+  display: flex;
+  font-size: 1.5rem;
+  letter-spacing: 6px;
+  margin: 2rem 0;
+  align-items: center;
+}
+.parallax__label::before {
+  flex: 0 0 70px;
+  content: "";
+  margin-right: 2rem;
+  height: 1px;
+  background-color: #fff;
+}
+.parallax__images {
+  position: absolute;
+  width: 120%;
+  height: 150%;
+  top: -20%;
+  left: -10%;
+  z-index: 1;
+}
+.parallax__images--item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.parallax__images--item .item__sky,
+.parallax__images--item .item__mountains,
+.parallax__images--item .item__forest {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.parallax__images--item .item__sky {
+  background-image: url("./images/1.jpg");
+}
+.parallax__images--item .item__mountains {
+  background-image: url("./images/2.png");
+  top: -5%;
+  z-index: 2;
+  filter: drop-shadow(0 -5px 5px #eaadfe);
+}
+.parallax__images--item .item__forest {
+  background-image: url("./images/3.png");
+  top: -10%;
+  z-index: 3;
+  filter: brightness(70%);
+}
+
+.content__container {
+  position: relative;
+  z-index: 5;
+  background-color: #400a51;
+  text-align: center;
+}
+.content__container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, transparent 50%, #400a51 100%);
+  transform: translateY(-100%);
+  pointer-events: none;
+}
+.content__title {
+  margin-bottom: 2rem;
+}
+.content__about {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+.content__about p {
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=style.css.map */
