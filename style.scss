@@ -22,18 +22,34 @@
     text-shadow: 2px 2px 5px black;
     position: relative;
     z-index: 2;
-    margin-left: 5rem;
+    margin: 3rem auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+
+    @media (max-width: 767px) {
+      font-size: 2rem;
+      width: 100%;
+	  text-align: center;
+    }
   }
 
   &__label {
     display: flex;
-    font-size: 1.5rem;
+    width: max-content;
+    font-size: 1rem;
     letter-spacing: 6px;
-    margin: 2rem 0;
     align-items: center;
+    margin-left: 2rem;
+    width: 80%;
+
+	@media (max-width: 1100px) {
+		width: 100%;
+	}
 
     &::before {
-      flex: 0 0 70px;
+      flex: 0 0 2rem;
       content: "";
       margin-right: 2rem;
       height: 1px;
@@ -41,16 +57,29 @@
     }
   }
 
-  //   &__title {
+  &__title {
+    display: flex;
+    font-size: 2.5rem;
+    letter-spacing: 6px;
+    margin-left: 3rem;
+    width: 80%;
 
-  //   }
+	@media (max-width: 1100px) {
+		width: 100%;
+	}
+
+    @media (max-width: 767px) {
+      font-size: 1.2rem;
+	  margin: auto;
+    }
+  }
 
   &__images {
     position: absolute;
-    width: 120%;
+    width: 115%;
     height: 150%;
     top: -20%;
-    left: -10%;
+    left: -5%;
     z-index: 1;
 
     &--item {
@@ -81,6 +110,9 @@
         top: -5%;
         z-index: 2;
         filter: drop-shadow(0 -5px 5px #eaadfe);
+        @media (max-aspect-ratio: 3/2) {
+          top: -10%;
+        }
       }
 
       .item__forest {
@@ -88,6 +120,10 @@
         top: -10%;
         z-index: 3;
         filter: brightness(70%);
+
+        @media (max-aspect-ratio: 3/2) {
+          top: -20%;
+        }
       }
     }
   }

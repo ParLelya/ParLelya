@@ -2,7 +2,6 @@ window.onload = function () {
   const parallax = document.querySelector(".parallax");
 
   if (parallax) {
-    const content = document.querySelector(".parallax__container");
     const sky = document.querySelector(".item__sky");
     const mountains = document.querySelector(".item__mountains");
     const forest = document.querySelector(".item__forest");
@@ -11,7 +10,7 @@ window.onload = function () {
     const forMountains = 30;
     const forForest = 15;
 
-    const speed = 0.05;
+    const speed = 0.1;
 
     let positionX = 0,
       positionY = 0,
