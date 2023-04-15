@@ -226,8 +226,8 @@
           }
 
           .stack-icons {
+            width: 100%;
             display: flex;
-            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
 
@@ -258,7 +258,6 @@
   }
 
   &__contact {
-    bottom: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
