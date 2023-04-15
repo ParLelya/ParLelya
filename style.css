@@ -48,9 +48,69 @@ a {
   border-radius: 10px;
   margin: 1rem;
 }
+a:hover {
+  box-shadow: 0 0 20px inset #a91d7f;
+  animation-name: light;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+@keyframes light {
+  0% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  5% {
+    box-shadow: none;
+  }
+  10% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  11% {
+    box-shadow: none;
+  }
+  14% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  17% {
+    box-shadow: none;
+  }
+  19% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  30% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  40% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  50% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  60% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  70% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  76% {
+    box-shadow: none;
+  }
+  77% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  80% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  90% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+  100% {
+    box-shadow: 0 0 20px inset #a91d7f;
+  }
+}
 @media (min-width: 1600px) {
   a {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -87,7 +147,7 @@ p {
 }
 @media (min-width: 1600px) {
   p {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -141,6 +201,11 @@ p {
   margin-left: 2rem;
   width: 80%;
 }
+@media (min-width: 1600px) {
+  .parallax__label {
+    font-size: 2.5rem;
+  }
+}
 @media (max-width: 1100px) {
   .parallax__label {
     width: 100%;
@@ -159,6 +224,11 @@ p {
   letter-spacing: 6px;
   margin-left: 3rem;
   width: 80%;
+}
+@media (min-width: 1600px) {
+  .parallax__title {
+    font-size: 3.6rem;
+  }
 }
 @media (max-width: 1100px) {
   .parallax__title {
@@ -326,6 +396,11 @@ p {
 .content__works .my-work .my-work__item .description p:last-of-type {
   width: 90%;
   font-size: 1rem;
+}
+@media (min-width: 1600px) {
+  .content__works .my-work .my-work__item .description p:last-of-type {
+    font-size: 2.5rem;
+  }
 }
 .content__works .my-work .my-work__item .description .links {
   display: flex;
