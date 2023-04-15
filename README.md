@@ -1,9 +1,9 @@
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParLelya&theme=monokai)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParLelya&theme=monokai)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParLelya&theme=monokai) 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParLelya&theme=monokai)
 
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ParLelya&theme=monokai) 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ParLelya&theme=monokai&utcOffset=3) 
 
 <!-- [![codewars](https://www.codewars.com/users/ParLelya/badges/large)](https://www.codewars.com/users/ParLelya)  -->
@@ -17,6 +17,7 @@
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" width="50px"/> -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="50px"/> -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50px"/> -->
+<!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="50px"/> -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg" width="50px"/> -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" width="50px"/> -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50px"/>  -->
