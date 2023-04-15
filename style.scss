@@ -169,7 +169,7 @@
       align-items: center;
 
       svg {
-        padding: 0 1rem;
+        padding: 1rem;
         width: 8rem;
       }
     }
@@ -188,17 +188,24 @@
       align-items: center;
       width: 100%;
 
-      @media (max-width: 767px) {
-      }
-
       .my-work__item {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
+        @media (max-width: 767px) {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
         .image {
           width: 50%;
+
+          @media (max-width: 767px) {
+            width: 100%;
+          }
 
           img {
             width: 100%;
@@ -213,6 +220,10 @@
 
         .description {
           width: 50%;
+
+          @media (max-width: 767px) {
+            width: 100%;
+          }
 
           .stack-icons {
             display: flex;
@@ -229,6 +240,17 @@
           p:last-of-type {
             width: 90%;
             font-size: 1rem;
+          }
+
+          .links {
+            display: flex;
+            justify-content: space-evenly;
+
+            @media (max-width: 767px) {
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
           }
         }
       }
