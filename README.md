@@ -1,4 +1,4 @@
-# [Сайт-резюме](https://parlelya.github.io/ParLelya/)
+## [Сайт-резюме](https://parlelya.github.io/ParLelya/)
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParLelya&theme=monokai)
 
@@ -12,6 +12,8 @@
 
 ### 💻 Work with:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" width="50px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="50px"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" width="50px"/>
+
+![](https://komarev.com/ghpvc/?username=parlelya&color=blueviolet&style=for-the-badge&label=Просмотров+профиля:)
 
 <!-- ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)  -->
 <!-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" width="50px"/>  -->
