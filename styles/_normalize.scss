@@ -50,6 +50,7 @@ a {
   border: 2px solid bisque;
   border-radius: 10px;
   margin: 1rem;
+  min-width: 30%;
 
   &:hover,
   &:active {
@@ -95,9 +96,16 @@ a {
   }
 }
 
+h1,
+h2,
+h3,
+strong {
+  text-shadow: $shadow;
+  color: bisque;
+}
+
 h1 {
   font-size: 3rem;
-  text-shadow: $shadow;
 
   @media (min-width: 1600px) {
     font-size: 4rem;
@@ -106,7 +114,6 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  text-shadow: $shadow;
 
   @media (min-width: 1600px) {
     font-size: 3.6rem;
@@ -115,7 +122,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  text-shadow: $shadow;
 
   @media (min-width: 1600px) {
     font-size: 3.3rem;
@@ -125,6 +131,7 @@ h3 {
 p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  width: 100%;
 
   @media (min-width: 1600px) {
     font-size: 2.5rem;

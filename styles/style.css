@@ -48,6 +48,7 @@ a {
   border: 2px solid bisque;
   border-radius: 10px;
   margin: 1rem;
+  min-width: 30%;
 }
 a:hover, a:active {
   box-shadow: 0 0 30px inset #b40780;
@@ -91,9 +92,16 @@ a:hover, a:active {
   }
 }
 
+h1,
+h2,
+h3,
+strong {
+  text-shadow: 2px 2px 10px black;
+  color: bisque;
+}
+
 h1 {
   font-size: 3rem;
-  text-shadow: 2px 2px 7px black;
 }
 @media (min-width: 1600px) {
   h1 {
@@ -103,7 +111,6 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  text-shadow: 2px 2px 7px black;
 }
 @media (min-width: 1600px) {
   h2 {
@@ -113,7 +120,6 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  text-shadow: 2px 2px 7px black;
 }
 @media (min-width: 1600px) {
   h3 {
@@ -124,6 +130,7 @@ h3 {
 p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  width: 100%;
 }
 @media (min-width: 1600px) {
   p {
@@ -155,7 +162,7 @@ p {
 }
 .parallax__container {
   text-transform: uppercase;
-  text-shadow: 2px 2px 7px black;
+  text-shadow: 2px 2px 10px black;
   position: relative;
   z-index: 2;
   margin: 3rem auto auto;
@@ -177,6 +184,7 @@ p {
   width: max-content;
   font-size: 1rem;
   letter-spacing: 6px;
+  color: white;
   align-items: center;
   margin-left: 2rem;
   width: 80%;
@@ -201,6 +209,7 @@ p {
 .parallax__title {
   display: flex;
   font-size: 2.5rem;
+  color: white;
   letter-spacing: 6px;
   margin-left: 3rem;
   width: 80%;
@@ -369,11 +378,6 @@ p {
 }
 @media (max-width: 767px) {
   .content__works .my-work .my-work__item .image {
-    width: 90%;
-  }
-}
-@media (max-width: 767px) {
-  .content__works .my-work .my-work__item .image {
     width: 100%;
   }
 }
@@ -419,6 +423,11 @@ p {
     align-items: center;
   }
 }
+@media (max-width: 767px) {
+  .content__works .my-work .my-work__item .description .links a {
+    min-width: 50%;
+  }
+}
 .content__contact {
   display: flex;
   flex-wrap: wrap;
@@ -452,5 +461,13 @@ p {
 @media (max-width: 767px) {
   .content__contact div {
     width: 80%;
+  }
+}
+.content__contact .contact--links a {
+  min-width: 50%;
+}
+@media (max-width: 767px) {
+  .content__contact .contact--links a {
+    min-width: 75%;
   }
 }/*# sourceMappingURL=style.css.map */
