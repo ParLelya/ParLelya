@@ -1,5 +1,4 @@
-### [Сайт-резюме](https://parlelya.github.io/ParLelya/)
-<hr/>
+<!-- ### [Сайт-резюме](https://parlelya.github.io/ParLelya/) -->
 
 ### 📋 Основной стек:
 <p align="center">
